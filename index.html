@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Contact Us</h1>
+        <div id="errorMessages" class="error"></div>
+        <div id="submitted" class="submitted"></div>
+      <form id="form">
+        <div class="Names">
+            <label for="firstname">First Name:
+                <input type="text" name="firstname" class="firstname" id="firstname">
+            </label>
+
+            <label for="lastname">Last Name:
+                <input type="text" name="lastname" class="lastname" id="lastname">
+            </label>
+        </div>
+  
+        <label for="email">Email Address:
+            <input type="email" name="email" class="email" id="email">
+        </label>
+
+        <div >
+            <h4>Query Type</h4>
+            <div class="radio-btns" id="radio-btns">
+               
+                <label for="generalEnquiry">Genral Enquiry
+                    <input type="radio" name="queryType">
+                </label>
+    
+                
+                <label for="supportRequest">Support request
+                    <input type="radio" name="queryType">
+                </label>
+            </div>
+        </div>
+         
+        <div class="Message" id="Messag">
+            <h4>Message</h4>
+            <textarea placeholder="Leave a Message"> </textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" class="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox"> I consent to being contacted by the team </label>
+        </div>
+
+           
+        <button>Submit</button>
+      </form>
+
+    </body>
+    <script src="index.js"></script>
+</html>
