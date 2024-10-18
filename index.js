@@ -69,7 +69,7 @@ function formFunction (){
                  submitted.style.backgroundColor = "hsl(0, 0%, 100%)"
                  submitted.style.border = "2px solid hsl(169, 82%, 27%)"
                  submitted.style.borderRadius =  "8px"
-                 submitted.style.maxWidth = "500px"
+                 submitted.style.maxWidth = "300px"
                  submitted.style.margin = "20px auto"
                  submitted.style.textAlign = "center"
                  submitted.style.padding ="15px"
